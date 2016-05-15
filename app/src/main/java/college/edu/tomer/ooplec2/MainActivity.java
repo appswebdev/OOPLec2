@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         TextView rankTop, rankBottom;
 
         if (currentCard == 1){
-            card1 = findViewById(R.id.card);
+            card1 = findViewById(R.id.card2);
             suitTop = (TextView) card1.findViewById(R.id.suitTop);
             suitBottom = (TextView) card1.findViewById(R.id.suitBottom);
             suitMiddle = (TextView) card1.findViewById(R.id.suitMiddle);
